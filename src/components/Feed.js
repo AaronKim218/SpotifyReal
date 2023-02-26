@@ -1,16 +1,15 @@
 import {React, useState} from 'react'
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
 import { Button, Container } from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css"
 
-export default function FeedEntry() {
+export default function Feed() {
 
   const [fireReaction, setFireReaction] = useState(0)
   const [trashReaction, setTrashReaction] = useState(0)
 
   return (
-    <Card className='text-center' style={{ width: '20rem' }}>
+    <Card className="text-center">
       <Card.Img variant="top" src="Question_mark_(black).svg.png"/>
       <Card.Body>
         <Card.Title>Song Name</Card.Title>
