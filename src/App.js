@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
-import { Button } from 'react-bootstrap'
-import FeedEntry from './components/Feed';
+import Feed from './components/Feed';
+import AddSongModal from "./components/AddSongModal";
 
 function App() {
   return (
     <div className="App">
-      <FeedEntry />
+      <AddSongModal />
+      <Feed />
     </div>
   );
 }
